@@ -1,5 +1,5 @@
 # SQL Practice
-By: JD Linares 
+By: JD Linares  
 Created: 2024 01 03 
 
 
