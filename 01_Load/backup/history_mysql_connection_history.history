@@ -1,0 +1,55 @@
+'''
+History of commands
+'''
+
+
+import requests
+search_url = "https://www.sec.gov/cgi-bin/browse-edgar?company=&match=starts-with&filenum=&State=&Country=&SIC=8050&myowner=exclude&action=getcompany"
+result = requests.get(search_url)
+print(result)
+headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"}
+result = requests.get(search_url,headers=headers)
+print(result)
+headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"}
+result = requests.get(search_url,headers=headers)
+print(result)
+quit()
+
+
+
+
+import pandas as pd
+df = pd.read_csv("data.csv",sep="\t")
+df
+df.head()
+df.columns
+
+
+
+import mysql.connector
+connection = mysql.connector.connect(host="localhost",user="diego")
+result = connection.cursor().execute("SHOW DATABASES")
+connection.close()
+
+
+connection = mysql.connector.connect(host="localhost",user="diego")
+result = connection.cursor()
+result.fetchall()
+result.execute("SHOW DATABASES")
+result.fetchall()
+connection.close()
+
+
+
+import readline
+readline.write_history_file("history_mysql_connection_history.history")
+
+
+
+
+
+
+
+
+
+

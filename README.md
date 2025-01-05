@@ -56,6 +56,7 @@ Data Analytics team questions include:
 - What is our current cloud compute cost and growth rate?
 - Which users are most active on our analytics platform and what queries do they run?
 - Can we optimize any query we include in examples to reduce compute?
+- What are the most used data sources and can we web scrape them?
 
 Operations team questions include: 
 - How many orders has each product received each year? 
