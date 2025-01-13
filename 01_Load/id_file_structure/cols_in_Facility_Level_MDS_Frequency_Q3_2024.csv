@@ -1,0 +1,17 @@
+,0
+CCN,int64
+Provider Name,object
+City,object
+State,object
+Zip Code,int64
+FIPS County Code,int64
+County Name,object
+Report Date,object
+MDS Item Question/Description,object
+MDS Item Response,object
+Overall Percent,object
+Total Residents,object
+Short-Stay Percent,object
+Short-Stay Residents,object
+Long-Stay Percent,object
+Long-Stay Residents,object
