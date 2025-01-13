@@ -1,8 +1,0 @@
-USE nh_mds;
-
-LOAD DATA INFILE '/data/nh_mds/Facility_Level_MDS_Frequency_Q3_2024.csv' 
-INTO TABLE 2024_q3 
-FIELDS terminated by ',' 
-enclosed by '"' 
-lines terminated by '\n' 
-ignore 1 rows;
