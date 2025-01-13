@@ -2,6 +2,21 @@
 By: JD Linares  
 Created: 2024 01 03 
 
+##
+Used available data instead of planned syntheic data
+- CMS
+- MySQL Sample Data (employees)
+- SEC   
+
+##
+Plan to return to orignal project in the future
+
+
+
+
+
+
+# Inital plan
 
 ## Description
 Synthetic data for SQL load and query practice
