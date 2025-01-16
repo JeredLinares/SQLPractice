@@ -12,7 +12,6 @@ Created: 2024 01 13
 5. Which department_no had the first employee? 
 
 ## B. SELECT / FROM / ORDER BY / LIMIT / JOIN / ON
-- Requires you to be sure of the type of relationship between tables
 1. What is the name of the highest paid employee
 2. 
 3. 
@@ -98,23 +97,7 @@ Available Functions:
   - lead			
   - coalesce				Return first non-null value
   - exists				Retern if result is not empty
-- Time Functions
-  - makedate()				2011,32 -> 2011-02-01
-  - str_to_date				('01,5,2013','%d,%m,%Y') -> 2013-05-01
-  - now
-  - curdate
-  - curtime
-  - extract(unit FROM timestamp)
-  - date_add(date, INTERVAL exp type) 	Eg. INTERVAL 1 YEAR
-  - datediff(interval,date1,date2)   	Eg. DAY
-  - year				return year from input
-  - quarter
-  - week				return week number
-  - day					Day of the month
-  - dayname				Day of the week
-  - hour
-  - time				Extract time portion of expression
-- Scaler Functions
+ Scaler Functions
   - ucase
   - lcase
   - mid
